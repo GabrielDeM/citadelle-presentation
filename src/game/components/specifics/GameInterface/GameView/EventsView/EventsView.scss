@@ -1,0 +1,33 @@
+.EventsView {
+  .eventsview {
+    height: 350px;
+
+    h2 {
+      color: #bbb;
+      letter-spacing: 0.025rem;
+    }
+
+    & > div {
+      width: 80%;
+      margin: auto;
+    }
+
+    div[role="progressbar"] {
+      background-color: #cc2020;
+
+      & > div {
+        background-color: #20c43e;
+        box-shadow: 2px 0 1px 5px rgba(#000, .2);
+      }
+    }
+
+    hr {
+      width: 99%;
+      border: 1px solid;
+      border-image-slice: 1;
+      border-image-width: 1;
+      border-style: inset;
+      border-image-source: linear-gradient(to right, transparent, #fff, transparent);
+    }
+  }
+}

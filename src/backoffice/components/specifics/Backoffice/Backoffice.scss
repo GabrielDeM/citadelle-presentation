@@ -1,0 +1,15 @@
+.Backoffice {
+  background-image: url('../../../utils/images/bg-backoffice-main.jpg');
+  background-size: cover;
+  padding-bottom: 100vh;
+
+  .backoffice {
+    font-size: 2em;
+    text-align: center
+  }
+
+  h2 {
+    margin-top: 0;
+    color: white;
+  }
+}

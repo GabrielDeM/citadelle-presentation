@@ -1,0 +1,19 @@
+.MainView {
+  &, .mainview {
+    height: 100%;
+  }
+
+  .mainview {
+
+    .mainContainer {
+      height: 100%;
+      display: flex;
+      align-content: space-between;
+      flex-wrap: wrap;
+    }
+
+    .container {
+      width: 100%;
+    }
+  }
+}

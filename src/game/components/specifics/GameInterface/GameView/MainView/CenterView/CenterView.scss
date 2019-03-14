@@ -1,0 +1,33 @@
+.CenterView {
+  .centerview {
+    .center {
+      align-self: center;
+    }
+  }
+
+  .upgrade-button,
+  .recruit-button {
+    all:unset;
+    padding: .3em 2em;
+    margin: .5em 0 2em 0;
+    background-color: #3a3c3e;
+    color: #ccc6c6;
+    font-weight: bold;
+    font-size: 1em;
+    border: 1px solid #414346;
+    transition: .5s;
+
+    &:not([disabled]) {
+      cursor: pointer;
+    }
+
+    &[disabled] {
+      background-color: #464646;
+      color: #bbb6b6;
+    }
+
+    &:not([disabled]):hover {
+      background-color: #262a2a;
+    }
+  }
+}

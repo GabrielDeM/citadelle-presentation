@@ -1,0 +1,36 @@
+.Header {
+  margin: 0;
+  background-color: black;
+  text-align: center;
+  position: relative;
+  padding-bottom: 3em;
+  z-index: 1;
+
+  .link-header{
+    text-decoration: none;
+  }
+
+  .header-h1 {
+    margin: 0;
+    color: #ccc6c6;
+    font-size: 3.5em;
+    text-transform: uppercase;
+    letter-spacing: .15em;
+    transition: .5s;
+
+    &:hover {
+      color: white;
+    }
+  }
+}
+
+@media (min-width: 601px) and (max-width: 800px) {
+  .Header {
+    padding-bottom: 2.7em;
+  }
+}
+@media (max-width: 600px) {
+  .Header {
+    padding-bottom: 2.1em;
+  }
+}

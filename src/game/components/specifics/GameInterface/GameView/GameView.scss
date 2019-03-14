@@ -1,0 +1,29 @@
+.GameView {
+  .gameview {
+    text-align: center;
+    background-color: #313131;
+    color: #eee;
+    height: 700px;
+    display: flex;
+    justify-content: space-between;
+
+    p, strong {
+      color: #eeea;
+    }
+
+    .left:not(.main) {
+      box-shadow: 2px 0 4px 1px rgba(#000, 0.2);
+      padding: 4px 15px;
+
+      p {
+        font-size: 1.2rem;
+        letter-spacing: 0.08rem;
+      }
+    }
+
+    .right:not(.main) {
+      box-shadow: -2px 0 4px 1px rgba(#000, 0.2);
+      padding: 4px 15px;
+    }
+  }
+}

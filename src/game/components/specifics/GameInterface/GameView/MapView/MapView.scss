@@ -1,0 +1,59 @@
+.MapView {
+  .mapview {
+    padding-bottom: 5px;
+    border-bottom: 3px solid #5556;
+
+    p {
+      transition: .2s;
+      &:hover,
+      &.ntm {
+        transform: scale(1.15);
+        color: #ddd;
+      }
+    }
+  }
+
+  h2 {
+    font-size: 2rem;
+    margin: 20px 0;
+    width: 100%;
+  }
+
+  .Quadrillage {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 600px;
+    max-height: 600px;
+  }
+
+  .quadrillage {
+    width: 80px;
+    height: 80px;
+    margin: 1px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 5%;
+    background: linear-gradient(rgb(0, 38, 2), rgb(34, 112, 77));
+    display: flex;
+    background-size: cover;
+    background-image: url(https://media.istockphoto.com/photos/grass-picture-id468443526?k=6&m=468443526&s=612x612&w=0&h=Oo_oXJNIMfUlB0krGL_WZEbHcNBN8DiWaIBmPGuXM-A=);
+  }
+
+  .user-citadel {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: .8em;
+    color: #ccc6c6;
+    background-size: cover;
+    background-image: url(http://www.programme.tv/media/cache/relative_max_355x272/upload/epgs/2016/03/l-italie-vue-du-ciel_102499681_1.jpg);
+  }
+
+  h3 {
+    margin: auto;
+  }
+}
+
+@media (max-width: 1000px){
+
+}

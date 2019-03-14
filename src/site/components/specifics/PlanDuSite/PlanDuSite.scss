@@ -1,0 +1,50 @@
+.PlanDuSite {
+  text-align: center;
+  background-image: url('../../../utils/img/bg-plan-du-site.jpg');
+  background-size: cover;
+  color: #ccc6c6;
+  padding: 8em 2em;
+  position: relative;
+
+  &:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: block;
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+
+  li {
+    list-style: none;
+  }
+
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+
+  .plan-h2 {
+    text-transform: uppercase;
+    font-size: 2.5em;
+    text-decoration: underline;
+    text-align: center;
+  }
+
+  .link-plan {
+    text-decoration: none;
+    color: #ccc6c6;
+    font-size: 2em;
+    transition: .8s;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+
+    &:hover {
+      text-decoration: underline;
+      color: white;
+    }
+  }
+}

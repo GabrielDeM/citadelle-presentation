@@ -1,0 +1,37 @@
+.CGU {
+  padding: 2em 2em;
+  color: #ccc6c6;
+  text-align: center;
+  padding: 2em 2em;
+  position: relative;
+
+  .bg-img {
+    background-image: url('../../../utils/img/bg-cgu.jpg');
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+
+    &:after {
+      content: '';
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      display: block;
+      background-color: rgba(0, 0, 0, 0.4);
+    }
+
+  }
+
+  h2 {
+    margin-top: 0;
+  }
+
+  p {
+    padding: 0 5em;
+  }
+}

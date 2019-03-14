@@ -1,0 +1,43 @@
+.Home {
+  text-align: center;
+  background-image: url('../../../utils/img/bg-home.jpg');
+  background-size: cover;
+  position: relative;
+  padding: 2em;
+
+  &:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: block;
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+
+  .resume-rp {
+    margin: 0;
+    font-size: 2em;
+    color: #ccc6c6;
+    font-size: 2.3em;
+    font-weight: bold;
+    letter-spacing: .2em;
+    padding: 1em 0;
+    font-style: italic;
+  }
+
+  .resume-game {
+    margin: 0;
+    padding: 5em 0;
+    color: #ccc6c6;
+    font-size: 2em;
+    font-weight: bold;
+    letter-spacing: .2em;
+  }
+
+  .quote-icons {
+    font-size: 1.3em;
+    transform: rotate(357deg);
+  }
+}

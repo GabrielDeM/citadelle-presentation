@@ -1,0 +1,123 @@
+.Footer {
+  padding-top: 1em;
+  width: 100%;
+  background: linear-gradient(hsl(0, 3%, 7%), rgb(0, 0, 0), rgb(0, 0, 0));
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  z-index: 1;
+
+  .social-icons_div {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .social-icons {
+    font-size: 3em;
+    color: #ccc6c6;
+    transition: .5s;
+    border-radius: 20%;
+    margin: .2em;
+  }
+
+  .twitter-icon:hover {
+    color: #1da1f2;
+    background-color: white;
+    border-radius: 20%;
+  }
+  .facebook-icon:hover {
+    color: #4267b2;
+    background-color: white;
+    border-radius: 20%;
+  }
+
+  .link-footer_div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .ul-footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+  }
+
+  .li-footer {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .link-footer {
+    text-decoration: none;
+    color: #ccc6c6;
+    font-size: 2em;
+    text-transform: uppercase;
+    transition: .8s;
+    font-weight: 700;
+    transition: .9s;
+    letter-spacing: .1em;
+
+    &:hover {
+      color: white;
+    }
+
+    &:hover .slider-cgu,
+    &:hover .slider-faq,
+    &:hover .slider-plan,
+    &:hover .slider-contact {
+      width: 100%;
+    }
+  }
+
+  .slider-cgu,
+  .slider-faq,
+  .slider-contact,
+  .slider-plan {
+    display: block;
+    background-color: white;
+    width: 0;
+    height: 1px;
+    transition: .8s;
+  }
+
+  .copyright {
+    width: 100%;
+    text-align: center;
+  }
+
+  .copyright-p {
+    margin: 0;
+    color: white;
+  }
+  .selected .slider-cgu,
+  .selected .slider-faq,
+  .selected .slider-contact,
+  .selected .slider-plan {
+    width: 100%;
+  }
+}
+
+
+@media (min-width: 801px) and (max-width: 1200px) {
+  .li-footer {
+    font-size: .7em;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 800px) {
+  .li-footer {
+    font-size: .5em;
+  }
+}
+
+@media (max-width: 600px) {
+  .li-footer {
+    font-size: .4em;
+  }
+}

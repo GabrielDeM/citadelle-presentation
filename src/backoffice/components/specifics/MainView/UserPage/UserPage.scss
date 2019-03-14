@@ -1,0 +1,99 @@
+.UserPage {
+  background-image: url('../../../../utils/images/bg-page.jpg');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+  padding: 2em 2em;
+  position: relative;
+  padding-bottom: 100vh;
+
+  &:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: block;
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+
+  .new-index {
+    display: flex;
+    justify-content: center;
+  }
+
+  .userPage {
+    display: flex;
+    justify-content: center;
+    padding: 3em;
+    margin: 5em 0;
+    border: 1px solid white;
+    width: 50%;
+    display: flex;
+  }
+
+  .left-content {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .right-content {
+    width: 70%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+  }
+
+  .user-avatar {
+    width: 5em;
+    height: 5em;
+    margin: auto 2em;
+  }
+
+  h2 {
+    font-size: 3.5em;
+    margin: auto;
+  }
+
+  h4 {
+    margin: 0;
+  }
+
+  .userpage-link {
+    text-decoration: none;
+    color: white;
+
+    &:hover .slider{
+      width: 100%;
+    }
+  }
+
+  .slider {
+    display: block;
+    background-color: white;
+    width: 0;
+    height: 1px;
+    transition: .8s;
+  }
+
+  .userpage-ul {
+    list-style: none;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .userpage-li {
+    font-size: 1.8em;
+    text-align: center;
+    margin: .5em 0;
+  }
+
+  .userpage-span {
+    font-weight: bold;
+  }
+}

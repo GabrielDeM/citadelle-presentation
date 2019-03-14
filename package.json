@@ -1,0 +1,53 @@
+{
+  "name": "citadelle",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^3.4.0",
+    "@material-ui/icons": "^3.0.1",
+    "@material-ui/lab": "^3.0.0-alpha.23",
+    "bcrypt": "^3.0.2",
+    "chalk": "^2.4.1",
+    "circular-json": "^0.5.9",
+    "classnames": "^2.2.6",
+    "commander": "^2.19.0",
+    "express": "^4.16.4",
+    "firebase": "^5.5.9",
+    "inquirer": "^6.2.0",
+    "mongoose": "^5.3.10",
+    "mongoose-deep-populate": "^3.1.1",
+    "node-sass": "^4.10.0",
+    "re-base": "^4.0.0",
+    "react": "^16.6.1",
+    "react-dom": "^16.6.1",
+    "react-icons": "^3.2.2",
+    "react-redux": "^5.1.0",
+    "react-router": "^4.3.1",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "2.1.1",
+    "redux": "^4.0.1",
+    "socket.io": "^2.1.1",
+    "socket.io-client": "^2.1.1",
+    "uploadcare-widget": "^3.6.1",
+    "validator": "^10.9.0",
+    "yargs": "^12.0.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "server": "nodemon server/index.js",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "crc": "node e:/www/CLI/create-react-component/index.js",
+    "create-react-component": "node e:/www/CLI/create-react-component/index.js"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}

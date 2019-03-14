@@ -1,0 +1,12 @@
+.BuildingsNav {
+  .buildingsnav {
+    p {
+      transition: .2s;
+      &:hover,
+      &.ntm {
+        transform: scale(1.15);
+        color: #ddd;
+      }
+    }
+  }
+}

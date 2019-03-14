@@ -1,0 +1,18 @@
+.UnitsView {
+  .unitsview {
+    height: 318px;
+    border-bottom: 3px solid #5556;
+
+    strong {
+      font-size: 1.5rem;
+      letter-spacing: 0.02rem;
+      line-height: 2rem;
+      font-weight: 400;
+    }
+
+    p {
+      font-size: 1.1rem;
+      letter-spacing: 0.005rem;
+    }
+  }
+}

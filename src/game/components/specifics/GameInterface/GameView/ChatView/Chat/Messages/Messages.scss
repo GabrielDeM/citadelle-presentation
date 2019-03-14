@@ -1,0 +1,37 @@
+.Messages {
+  .messages {
+    height: 175px;
+    padding: 3px 15px;
+    box-sizing: border-box;
+    overflow-y: auto;
+    overflow-x: hidden;
+    word-break: normal;
+
+    .message {
+      min-height: 25px;
+      color: #ddd;
+      margin: 5px 0;
+      display: block;
+      width: 100%;
+      text-align: left;
+      line-height: 0.9rem;
+
+      .date {
+        margin-right: 5px;
+        font-size: 0.75rem;
+        color: #ccc;
+      }
+
+      .username {
+        color: #0af;
+      }
+    }
+    &::-webkit-scrollbar {
+      width: 0.4em;
+    }
+
+    &::-webkit-scrollbar-thumb {
+      background-color: #eceff1;
+    }
+  }
+}

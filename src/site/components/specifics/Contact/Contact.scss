@@ -1,0 +1,102 @@
+.Contact {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-image: url('../../../utils/img/bg-contact.jpg');
+  background-size: cover;
+  color: #ccc6c6;
+  padding: 5em 2em;
+  position: relative;
+
+  &:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: block;
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+
+  h2 {
+    font-size: 2.3em;
+    letter-spacing: .1em;
+    border-bottom: 1px solid white;
+  }
+
+  .contact-field {
+    padding: .6em 1em .5em 1em;
+    font-size: 2em;
+    margin: 1em 0 0 0;
+    color: #ccc6c6;
+    background-color: #262a2a;
+    border: 0;
+
+    &:hover::placeholder {
+      color: hsl(0, 5%, 60%);
+    }
+  }
+
+  .contact-textarea {
+    padding: .6em 1em .5em 1em;
+    font-size: 2em;
+    margin: 1em 0 0 0;
+    color: #ccc6c6;
+    background-color: #262a2a;
+    border: 0;
+
+    &:hover::placeholder {
+      color: hsl(0, 5%, 60%);
+    }
+  }
+
+  .div-position {
+    position: relative;
+  }
+
+  .contact-button {
+    all:unset;
+    display: block;
+    padding: .3em 2em;
+    margin: .5em auto 2em auto;
+    background-color: #3a3c3e;
+    color: #ccc6c6;
+    font-weight: bold;
+    font-size: 2em;
+    border: 1px solid #414346;
+    transition: .5s;
+
+    &:hover {
+      background-color: #262a2a;
+    }
+  }
+
+  .forgot-mdp {
+    font-size: 1.5em;
+    letter-spacing: .05em;
+    color: #ccc6c6;
+  }
+
+  .contact-label {
+    position: absolute;
+    top: 36px;
+    left: 78px;
+    z-index: 1;
+    display: none;
+
+    &-message {
+      top: 500px;
+      left: 34px;
+    }
+  }
+
+  .field-has-content {
+      display: inline;
+      animation: fadeUp .5s;
+  }
+
+  .help-block {
+    color: #ccc6c6;
+  }
+}

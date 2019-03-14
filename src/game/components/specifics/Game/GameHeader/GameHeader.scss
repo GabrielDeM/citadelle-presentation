@@ -1,0 +1,89 @@
+.GameHeader {
+  .gameheader {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 0 1em;
+
+    .microMenu {
+      width: 33%;
+      display: flex;
+      justify-content: flex-start;
+    }
+
+    .CitaName {
+      width: 33%;
+      display: flex;
+      font-size: 24px;
+      justify-content: center;
+    }
+
+    h2 {
+      color: #fff;
+    }
+
+    .ViewRessources {
+      width: 33%;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      font-size: 24px;
+
+      &Top,
+      &Bot {
+        color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      span {
+        color: #fff;
+        font-size: 24px;
+      }
+    }
+
+    .ViewRessources img {
+      margin: 0 .5em 0 1em;
+    }
+
+  }
+}
+
+
+hr {
+  width: 100%;
+  border: 1px solid;
+  border-image-slice: 1;
+  border-image-width: 1;
+  border-style: inset;
+  border-image-source: linear-gradient(to right, transparent, #aaab, transparent);
+}
+
+.tooltip {
+  width: 10em;
+  color: #fff;
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.tooltip > h3 {
+  text-align: center;
+  color: #fff;
+  text-shadow: 2px 1px 4px #0004;
+}
+
+.divs {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.production {
+  color: #2AC940;
+}
+

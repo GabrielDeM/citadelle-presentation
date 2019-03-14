@@ -1,0 +1,87 @@
+.Nav {
+  margin: 0;
+  padding: .5em;
+  background: linear-gradient(rgb(0, 0, 0), hsl(197, 10%, 18%));
+  position: absolute;
+  top: 70px;
+  left: 0;
+  right: 0;
+  z-index: 5;
+
+  &-scroll {
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+    top: 0;
+    font-size: .8em;
+  }
+
+  .ul-nav {
+    all: unset;
+    // padding-left: 6em;
+    display: flex;
+  }
+
+  .link-nav {
+    text-decoration: none;
+    color: #ccc6c6;
+    font-size: 2em;
+    transition: .5s;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+
+    &:hover {
+      color: #fff;
+    }
+
+    &:hover .slider{
+      width: 100%;
+    }
+
+  }
+
+  .selected .slider{
+    width: 100%;
+  }
+
+  .li-nav {
+    list-style: none;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+
+    &-Admin,
+    &-Joueurs,
+    &-Citadelles {
+      width: 33%;
+    }
+  }
+
+  .slider {
+    display: block;
+    background-color: white;
+    width: 0;
+    height: 1px;
+    transition: .8s;
+  }
+}
+
+@media (min-width: 801px) and (max-width: 1200px) {
+  .li-nav {
+    font-size: .7em;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 800px) {
+  .li-nav {
+    font-size: .5em;
+  }
+}
+
+@media (max-width: 600px) {
+  .li-nav {
+    font-size: .4em;
+  }
+}
+

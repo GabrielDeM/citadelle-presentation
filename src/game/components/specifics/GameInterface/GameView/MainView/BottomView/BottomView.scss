@@ -1,0 +1,28 @@
+.BottomView {
+  .bottomview {
+    .bottom {
+      display: flex;
+
+      & > div {
+        width: 50%;
+        padding: 10px 13px;
+      }
+
+      .left {
+        text-align: right;
+      }
+
+      .right {
+        text-align: left;
+      }
+
+      .level {
+        font-size: 1.2rem;
+      }
+
+      .stats p {
+        margin: 0;
+      }
+    }
+  }
+}

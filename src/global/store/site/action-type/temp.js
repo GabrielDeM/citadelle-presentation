@@ -1,0 +1,4 @@
+export const SET_FORM_DATA = 'SET_FORM_DATA';
+export const SET_ERROR_MESSAGE = 'SET_ERROR_MESSAGE';
+export const SET_USER_CREATED = 'SET_USER_CREATED';
+export const SET_LOGGED = 'SET_LOGGED';

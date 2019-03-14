@@ -1,0 +1,97 @@
+.CitadelPage {
+  background-image: url('../../../../utils/images/bg-page.jpg');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+  padding: 2em 2em;
+  position: relative;
+  padding-bottom: 100vh;
+
+  &:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: block;
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+
+  .new-index {
+    display: flex;
+    justify-content: center;
+  }
+
+  .citadelPage {
+    display: flex;
+    justify-content: center;
+    padding: 3em;
+    margin: 5em 0;
+    border: 1px solid white;
+    width: 50%;
+    display: flex;
+  }
+
+  .left-content {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .right-content {
+    width: 50%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  h2 {
+    font-size: 3.5em;
+    margin: auto;
+  }
+
+  h3 {
+    margin: 0;
+    font-size: 2em;
+  }
+
+  .username {
+    margin-top: 1em;
+  }
+
+  h4 {
+    margin: 0;
+  }
+
+  .citadelpage-link {
+    text-decoration: none;
+    color: white;
+
+    &:hover .slider{
+      width: 100%;
+    }
+  }
+
+  .slider {
+    display: block;
+    background-color: white;
+    width: 0;
+    height: 1px;
+    transition: .8s;
+  }
+
+  .img-ressources {
+    width: 100%;
+    font-size: 2em;
+  }
+
+  .ViewRessourcesBot {
+    width: 100%;
+    font-size: 2em;
+  }
+}

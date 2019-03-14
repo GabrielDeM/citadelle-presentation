@@ -1,0 +1,34 @@
+.TopView {
+  .topview {
+
+    .top {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    .resume {
+      width: 70%;
+      font-size: 1.2em;
+
+      & + div {
+        width: 100%;
+      }
+    }
+
+    .buildingName {
+      font-size: 2rem;
+      margin: 20px 0;
+      width: 100%;
+    }
+
+    .temp {
+      display: inline;
+      font-size: 1.3rem;
+      background: linear-gradient(to right, #de1419, #1067ff);
+      background-clip: text;
+      -webkit-background-clip: text;
+      color: transparent;
+    }
+  }
+}
